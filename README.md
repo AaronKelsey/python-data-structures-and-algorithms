@@ -1,3 +1,47 @@
 # python-data-structures-and-algorithms
 
-A collection of common data structures and algorithms implemented in Python.
+This is a collection of common data structures and algorithms implemented in Python. This repositories intended purpose is a learning resource for myself and hopefully others. It is currently a work in progress and will be continually updated.
+
+[ ] - To-do <br />
+[x] - Implemented
+
+## Data Structures
+
+- Arrays [ ]
+- Hash Tables [ ]
+- Linked Lists [x]
+  - Singly Linked List - [x]
+  - Doubly Linked List [x]
+  - Circular Linked List [x]
+- Stacks [ ]
+- Queues [ ]
+- Heap [ ]
+- Trees [ ]
+  - Binary Tree [ ]
+  - Binary Search Tree [ ]
+  - Trie [ ]
+- Graphs [ ]
+  - Adjacency List [x]
+  - Adjacency Matrix [ ]
+  
+## Algorithms
+
+### Sorting [ ]
+- Quicksort [ ]
+- Merge Sort [ ]
+- Inserstion Sort [ ]
+- Bucket Sort [ ]
+- Heap Sort [ ]
+- Selection Sort [ ]
+
+### Search [ ]
+- Binary search [ ]
+- Depth-first search [ ]
+- Breadth-first search [ ]
+
+### Graph [ ]
+- Depth-first traversal [ ]
+- Breadth-first traversal [ ]
+- Dijkstra's Algorithm [ ]
+- Prim's algorithm [ ]
+- Topological Sort [ ]
