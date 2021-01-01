@@ -22,7 +22,7 @@ This is a collection of common data structures and algorithms implemented in Pyt
   - Trie [ ]
 - Graphs [ ]
   - Adjacency List [x]
-  - Adjacency Matrix [ ]
+  - Adjacency Matrix [x]
   
 ## Algorithms
 
