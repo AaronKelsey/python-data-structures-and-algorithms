@@ -7,20 +7,20 @@ This is a collection of common data structures and algorithms implemented in Pyt
 
 ## Data Structures
 
-- Arrays [ ]
-- Hash Tables [ ]
+- Array [ ]
+- Hash Table [x]
 - Linked Lists [x]
   - Singly Linked List - [x]
   - Doubly Linked List [x]
   - Circular Linked List [x]
-- Stacks [ ]
-- Queues [ ]
+- Stack [x]
+- Queue [ ]
 - Heap [ ]
 - Trees [ ]
   - Binary Tree [ ]
   - Binary Search Tree [ ]
   - Trie [ ]
-- Graphs [ ]
+- Graphs [x]
   - Adjacency List [x]
   - Adjacency Matrix [x]
   
