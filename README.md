@@ -14,7 +14,7 @@ This is a collection of common data structures and algorithms implemented in Pyt
   - Doubly Linked List [x]
   - Circular Linked List [x]
 - Stack [x]
-- Queue [ ]
+- Queue [x]
 - Heap [ ]
 - Trees [ ]
   - Binary Tree [ ]
