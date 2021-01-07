@@ -37,7 +37,7 @@ This is a collection of common data structures and algorithms implemented in Pyt
 - Selection Sort [ ]
 
 ### Search [ ]
-- Binary search [ ]
+- Binary search [x]
 - Depth-first search [ ]
 - Breadth-first search [ ]
 
