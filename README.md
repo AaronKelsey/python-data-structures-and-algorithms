@@ -38,8 +38,8 @@ This is a collection of common data structures and algorithms implemented in Pyt
 
 ### Search [ ]
 - Binary search [x]
-- Depth-first search [ ]
-- Breadth-first search [ ]
+- Depth-first search [x]
+- Breadth-first search [x]
 
 ### Graph [ ]
 - Depth-first traversal [ ]
