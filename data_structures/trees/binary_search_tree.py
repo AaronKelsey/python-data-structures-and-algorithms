@@ -1,5 +1,4 @@
 class Tree:
-
     def __init__(self, data, left=None, right=None):
         self.data = data
         self.left = left
@@ -72,7 +71,7 @@ if __name__ == '__main__':
         print(tree.find(i), end=' ')
     print('\n', tree.get_size())
 
-tree.preorder()
-print()
-tree.inorder()
-print()
+    tree.preorder()
+    print()
+    tree.inorder()
+    print()
