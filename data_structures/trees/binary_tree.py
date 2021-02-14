@@ -20,6 +20,22 @@ class Tree:
 
         return output
 
+    def preorder(self, root: Node, output: List):
+        if root:
+            output.append(root.data)
+            self.preorder(root.left, output)
+            self.preorder(root.right, output)
+
+        return output
+
+    def postorder(self, root: Node, output: List):
+        if root:
+            self.postorder(root.left, output)
+            self.postorder(root.right, output)
+            output.append(root.data)
+
+        return output
+
 
 if __name__ == '__main__':
     tree = Tree(Node(1))
@@ -31,9 +47,16 @@ if __name__ == '__main__':
     tree.root.right.left = Node(6)
     tree.root.right.right = Node(7)
 
+    ordered_output = []
 
-    output = []
+    tree.inorder(tree.root, ordered_output)
+    print(ordered_output)
+    ordered_output.clear()
 
-    tree.inorder(tree.root, output)
+    tree.preorder(tree.root, ordered_output)
+    print(ordered_output)
+    ordered_output.clear()
 
-    print(output)
+    tree.postorder(tree.root, ordered_output)
+    print(ordered_output)
+    ordered_output.clear()
