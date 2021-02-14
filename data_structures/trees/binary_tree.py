@@ -1,4 +1,5 @@
 from typing import List
+from collections import deque
 
 
 class Node:
@@ -36,6 +37,26 @@ class Tree:
 
         return output
 
+    def level_order(self, root):
+        queue = deque()
+        output = list()
+
+        if root is None:
+            return list()
+
+        queue.append(root)
+
+        while queue:
+            node = queue.popleft()
+            output.append(node.data)
+
+            if node.left:
+                queue.append(node.left)
+            if node.right:
+                queue.append(node.right)
+
+        return output
+
 
 if __name__ == '__main__':
     tree = Tree(Node(1))
@@ -60,3 +81,5 @@ if __name__ == '__main__':
     tree.postorder(tree.root, ordered_output)
     print(ordered_output)
     ordered_output.clear()
+
+    print(tree.level_order(tree.root))
