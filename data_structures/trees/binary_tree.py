@@ -57,6 +57,46 @@ class Tree:
 
         return output
 
+    def reverse_level_order(self, root):
+        queue = deque()
+        output = list()
+
+        if root is None:
+            return list()
+
+        queue.append(root)
+
+        while queue:
+            node = queue.popleft()
+            output.append(node.data)
+
+            if node.right:
+                queue.append(node.right)
+            if node.left:
+                queue.append(node.left)
+
+        return output
+
+    def size(self, root):
+        if root is None:
+            return 0
+
+        stack = deque()
+        stack.append(root)
+        size = 1
+
+        while stack:
+            node = stack.popleft()
+
+            if node.left:
+                stack.append(node.left)
+                size += 1
+            if node.right:
+                stack.append(node.right)
+                size += 1
+
+        return size
+
 
 if __name__ == '__main__':
     tree = Tree(Node(1))
@@ -83,3 +123,7 @@ if __name__ == '__main__':
     ordered_output.clear()
 
     print(tree.level_order(tree.root))
+
+    print(tree.reverse_level_order(tree.root))
+
+    print(tree.size(tree.root))
